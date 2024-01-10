@@ -7,14 +7,12 @@ import ContactList from "components/ContactList/ContactList";
 import Filter from "components/Filter/Filter";
 
 const App = () => {
-  const filter = useSelector(state => state.filter)
-
   return (
     <Wrapper>
       <H1>Phonebook</H1>
       <ContactForm />
       <H2>Contacts</H2>
-      <Filter value={filter}></Filter>
+      <Filter></Filter>
       <ContactList></ContactList>
     </Wrapper>
   );
