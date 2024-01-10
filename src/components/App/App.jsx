@@ -1,5 +1,3 @@
-import { useSelector } from "react-redux";
-
 import { Wrapper, H1, H2, } from "./App.styled";
 
 import ContactForm from 'components/ContactForm/ContactForm';
